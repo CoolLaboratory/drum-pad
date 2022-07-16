@@ -4,6 +4,7 @@
     display: grid;
     place-items: center;
     background: radial-gradient( #ffab91, #ff7043);
+    border-radius: 10px;
   }
 
   img {

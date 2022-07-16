@@ -18,7 +18,7 @@
 
 <header style="display:flex; text-align:end; padding:10px;">
   <div style="display:inline-flex; flex:1; align-items:center; justify-content: flex-start;">
-    <span>Simple DrumPad</span>
+    <span style="font-size: 1.25rem;">Simple DrumPad</span>
   </div>
 
   <div style="display:inline-flex; flex:1; justify-content:flex-end;">

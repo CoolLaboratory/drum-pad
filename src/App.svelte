@@ -12,6 +12,10 @@
   let padContainer: HTMLElement
 </script>
 
+<svelte:head>
+  <title>Simple DrumPad</title>
+</svelte:head>
+
 <header style="display:flex; text-align:end; padding:10px;">
   <div style="display:inline-flex; flex:1; align-items:center; justify-content: flex-start;">
     <span>Simple DrumPad</span>
@@ -25,8 +29,6 @@
       <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
     </button>
   </div>
-  
-    
 </header>
 
 <main bind:this={padContainer}>
